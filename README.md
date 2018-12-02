@@ -1,16 +1,15 @@
 # List of Project Proposals
 
-- [List of Project Proposals](#list-of-project-proposals)
 - [Machine Learning](#machine-learning)
-  * [1. Your Own Machine Learning Library](#1-your-own-machine-learning-library)
-  * [2. Machine Learning Model Zoo](#2-machine-learning-model-zoo)
-  * [3. Sentiment Analysis on #MeToo tweets](#3-sentiment-analysis-on--metoo-tweets)
-  * [4. Style Transfer on Images](#4-style-transfer-on-images)
+  1. [Your Own Machine Learning Library](#1-your-own-machine-learning-library)
+  2. [Machine Learning Model Zoo](#2-machine-learning-model-zoo)
+  3. [Sentiment Analysis on #MeToo tweets](#3-sentiment-analysis-on-metoo-tweets)
+  4. [Style Transfer on Images](#4-style-transfer-on-images)
 - [Web Development](#web-development)
-  * [1. Bookmark Manager Web extension](#1-bookmark-manager-web-extension)
-  * [2. Note Board](#2-note-board)
+  1. [Bookmark Manager Web extension](#1-bookmark-manager-web-extension)
+  2. [Note Board](#2-note-board)
 - [Android App Development](#android-app-development)
-  * [1. Shared Calendar](#1-shared-calendar)
+  1. [Shared Calendar](#1-shared-calendar)
 
 # Machine Learning
 
