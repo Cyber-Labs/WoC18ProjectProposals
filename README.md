@@ -1,39 +1,100 @@
-# WoC18ProjectProposals
+# List of Project Proposals
 
-### Style Transfer on Image (For second years) (Demo, Paper)
-Ever wished you could paint like Picasso or Van Gogh? Now, it is possible for a Deep Learning enthusiast like you by using the art of Neural Style Transfer. Style transfer is the technique of recomposing images in the style of other images. In this project, we will implement “A Neural Algorithm of Artistic Style” by Leon A. Gatys et al. 
-Requirements:
-1. Conceptual knowledge of Deep Learning and specifically Convolutional Neural Networks.
-2. Strong programming skills in Python and knowledge of a Deep Learning framework (Tensorflow/ Keras/ PyTorch) is preferred.
+[TOC]
 
-### Newsroom
-- #### Description
-1. An android app which fetches the posts from Facebook pages of various student clubs(Cyber Labs, Manthan, Mailer Daemon etc), student chapters(E.g. ACM Student chapter, ASME Student Chapter etc.), departmental societies(E.g. SIAM - Maths Dept, CSES - CSE Dept. etc.) and from other miscellaneous pages like SCG(Student Coordination Group), ISS(ISM Students’ Society) etc. 
-Each of the student clubs, student chapters, departmental societies, and other miscellanous groups can register on the app as an ENTITY(coin a better term for this).
+# Machine Learning
 
-2. Each ENTITY must have a facebook page. A separate channel will be created in the Android app for each ENTITY. 
+## 1. Your Own Machine Learning Library
 
-3. Whenever a new post comes on an ENTITY’s fb page, it will also show up in the channel of the ENTITY in the newsroom app. This can be done by Facebook Graph API.  
+- **Suggested Audience:** First years
+- **Description:** One of the crucial things in machine learning is to understand the inner working of the  algorithms being used. In this project, you will develop a machine learning library consisting of various machine learning algorithms built without using any ready-to-use library. A tentative list of algorithms can be discussed later with the mentors.
 
+- **Goals:** 
+  - Phase 1: Implementation of linear regression, logistic regression, decision tree, k-nearest neighbours, K-means clustering, neural networks.
+  - Phase 2: Implementation of more advanced algorithms and techniques, if time permits.
 
-4. A USER (student/faculty) can register as a user and can subscribe to the Channel he/she wants to see the fb posts of. Every time a subscribed channel has a new post, a suitable notification should come on the USER’s android phone. 
+- **Requirements:** 
+  - Basic knowledge of machine learning algorithms.
+  - Basic knowledge of Python, object-oriented programming and Numpy.
+- **Resources:** 
+  - A basic overview of the algorithms is given [here](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/).
 
-### Shared Calender
-- #### Description
- Shared calendar is an android app to solve the problem of clashes of student activities in college. 
+## 2. Machine Learning Model Zoo
 
-- #### Version 1 goals:
- A calendar screen which is readable by every user and editable by the coordinator of every club/student chapter (or by 1 or 2 fixed persons per club/student chapter).  E.g. Cyberlabs is organizing a workshop on some day. So, cyberlabs will highlight the timeframe on the calendar for the day it is organizing a workshop. 
+- **Suggested Audience:** First years
+- **Description:** A model zoo is a collection of machine learning models trained and applied for various problems ranging from simple regression to large scale vision problems. In this project, you will create machine learning models for various regression as well as classification tasks. 
 
-- #### Version 2 goals (Requires ISM admin to align on this): 
- Include each hall and auditorium etc like GJLT, Penman, Seminar Hall, Management Hall etc and make accounts for these rooms too(Can also consider NLHC rooms if feasible from admin’s end). Then the admin person who is responsible for maintaining record of the fact that whether a particular hall under his responsibility is booked for a timeslot or not, can mark the timeframe in the calendar when the hall under his responsibility is booked, along with the reason for which it is booked. In this way, entire college can see by sitting in the room itself whether a particular hall is booked or not. 
+- **Goals:** 
+  - Phase 1: Implementation of machine learning models for various regression tasks. You can choose tasks of your own or discuss with the mentors.
+  - Phase 2: Implementation of more advanced machine learning models for classification tasks on image data.
 
-### Bookmark Manager Web extension (For second, first years)
- A web extension which is used to manage bookmarks having these features (but not limited to):-
-  The user can search in bookmarks (for the title, URL) (Implement fuzzy search)
-User can save notes along with bookmarks for future references.
-Users can export all the data (including notes) to a separate json file.
-Requirements:
-Basic knowledge of HTML,CSS,JavaScript
-Refer the tutorial here:- [Get Started](https://developer.chrome.com/extensions/getstarted)
+- **Requirements:** 
+  - Implementation knowledge of machine learning algorithms.
+  - Knowledge of Python, basic understanding of Numpy and Scikit-Learn. Knowledge of Pandas would be an  advantage.
+- **Resources:** 
+  - A basic overview of the algorithms is given [here](https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/).
+  - An article on difference between regression and classification is given [here](https://www.geeksforgeeks.org/regression-classification-supervised-machine-learning/).
 
+## 3. Sentiment Analysis on #MeToo tweets
+
+- **Suggested Audience:** First years and above
+- **Description:**  Sentiment analysis is the process of identifying and categorizing opinions expressed in a piece of text. #MeToo spread virally in October 2017 as a hashtag on social media in an attempt to demonstrate the widespread prevalence of sexual assault and harassment. This project will try to predict the sentiment from the tweets with the #MeToo hashtag.
+
+- **Goals:** 
+  - Phase 1: Scrape the tweets from Twitter with the hash tag #MeToo and store the data locally.
+  - Phase 2: Train a sentiment analysis model separately and use it to predict the sentiments for the gathered tweets. Additionally, you can try to suggest if a user requires social counselling based on the intensity of the sentiment.
+
+- **Requirements:** 
+  - Knowledge of scraping tools such as scrapy, BeautifulSoup and advanced string matching tools like regex.
+  - Conceptual knowledge of Natural Language Processing.
+  - Programming skills in Python and ready-to-use machine learning libraries like scikit-learn.
+
+## 4. Style Transfer on Images
+
+- **Suggested Audience:** Second years
+- **Description:** Ever wished you could paint like Picasso or Van Gogh? Now, it is possible for a Deep Learning enthusiast like you by using the art of Neural Style Transfer. Style transfer is the technique of recomposing images in the style of other images.
+
+- **Goals:** 
+  - Phase 1: Implementation of the paper “A Neural Algorithm of Artistic Style” by Leon A. Gatys et al.
+  - Phase 2: Implement Neural Style Transfer for a practical use.
+
+- **Requirements:** 
+  - Conceptual knowledge of Deep Learning, specifically Convolutional Neural Networks.
+  - Strong programming skills in Python and knowledge of a Deep Learning framework (Tensorflow/ Keras/ PyTorch) would be helpful.
+- **Resources:** 
+  - [Link](https://arxiv.org/pdf/1508.06576.pdf) to the paper "A Neural Algorithm of Artistic Style” by Leon A. Gatys et al.
+  - A working demo of Neural Style Transfer can be found [here](https://deepart.io/).
+
+# Web Development
+
+## 1. Bookmark Manager Web extension
+
+- **Suggested Audience:** First years and above.
+- **Description:** A web extension which is used to manage bookmarks having these features (but not limited to)-
+  1. The user can search in bookmarks (for the title, URL)
+  2. User can save notes along with bookmarks for future references.
+  3. Users can export all the data (including notes) to a separate json file.
+
+- **Goals:** 
+  - Build the chrome extension up to completion/adequate progress.
+
+- **Requirements:** 
+  - Basic knowledge of HTML, CSS and JavaScript
+  - Fuzzy search can be implemented for searching
+- **Resources:**
+  - Refer the tutorial [here](https://developer.chrome.com/extensions/getstarted) on how to build a chrome extension.
+
+# Android App Development
+
+## 1. Shared Calendar
+
+- **Suggested Audience:** Second years
+- **Description:** Shared calendar is an android app to solve the problem of clashes of student activities in the college. You will design a calendar that will be readable
+- **Goals:** 
+  - Build the chrome extension up to completion/adequate progress.
+
+- **Requirements:** 
+  - Basic knowledge of HTML, CSS and JavaScript
+  - Fuzzy search can be implemented for searching
+- **Resources:**
+  - Refer the tutorial [here](https://developer.chrome.com/extensions/getstarted) on how to build a chrome extension.
