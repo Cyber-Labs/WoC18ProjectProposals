@@ -1,6 +1,16 @@
 # List of Project Proposals
 
-[TOC]
+- [List of Project Proposals](#list-of-project-proposals)
+- [Machine Learning](#machine-learning)
+  * [1. Your Own Machine Learning Library](#1-your-own-machine-learning-library)
+  * [2. Machine Learning Model Zoo](#2-machine-learning-model-zoo)
+  * [3. Sentiment Analysis on #MeToo tweets](#3-sentiment-analysis-on--metoo-tweets)
+  * [4. Style Transfer on Images](#4-style-transfer-on-images)
+- [Web Development](#web-development)
+  * [1. Bookmark Manager Web extension](#1-bookmark-manager-web-extension)
+  * [2. Note Board](#2-note-board)
+- [Android App Development](#android-app-development)
+  * [1. Shared Calendar](#1-shared-calendar)
 
 # Machine Learning
 
@@ -83,6 +93,26 @@
   - Fuzzy search can be implemented for searching
 - **Resources:**
   - Refer the tutorial [here](https://developer.chrome.com/extensions/getstarted) on how to build a chrome extension.
+  
+## 2. Note Board
+
+- **Suggested Audience:** First years.
+- **Description:** A note scribbling website which will just be a full size textfield with a save button having these features (but not limited to) -
+  1. Clicking anywhere should start typing from that point (similar to One Note).
+  2. A save button will persist the text to a Database.
+  3. Visiting the website from anywhere should show the same text.
+
+- **Goals:** 
+  - Phase 1: Build the frontend UI and logic for the application.
+  - Phase 2: Add users and database persistance feature to the application.
+
+- **Requirements:** 
+  - Basic knowledge of HTML, CSS and JavaScript
+  - Basic knowledge of database persistance.
+  
+- **Resources:**
+  - Firebase Database can be used. It persists data without having to write backend code ([docs](https://firebase.google.com/docs/database/web/start), [tutorial](https://www.tutorialspoint.com/firebase/)).
+
 
 # Android App Development
 
