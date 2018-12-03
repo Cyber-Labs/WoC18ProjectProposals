@@ -127,5 +127,3 @@
   - Knowledge of Java, XML and Android basics.
   - Knowledge of database persistence.
   
-- **Resources:**
-  - Firebase Database can be used. It persists data without having to write backend code ([docs](https://firebase.google.com/docs/database/android/start/), [tutorial](https://www.tutorialspoint.com/firebase/)).
