@@ -118,12 +118,14 @@
 ## 1. Shared Calendar
 
 - **Suggested Audience:** Second years
-- **Description:** Shared calendar is an android app to solve the problem of clashes of student activities in the college. You will design a calendar that will be readable
+- **Description:** Shared calendar is an android app to solve the problem of clashes of student activities in the college. You will design a calendar that will be readable.
+
 - **Goals:** 
-  - Build the chrome extension up to completion/adequate progress.
+  - Build the shared calender up to completion/adequate progress.
 
 - **Requirements:** 
-  - Basic knowledge of HTML, CSS and JavaScript
-  - Fuzzy search can be implemented for searching
+  - Knowledge of Java, XML and Android basics.
+  - Knowledge of database persistence.
+  
 - **Resources:**
-  - Refer the tutorial [here](https://developer.chrome.com/extensions/getstarted) on how to build a chrome extension.
+  - Firebase Database can be used. It persists data without having to write backend code ([docs](https://firebase.google.com/docs/database/android/start/), [tutorial](https://www.tutorialspoint.com/firebase/)).
