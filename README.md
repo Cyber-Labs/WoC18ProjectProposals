@@ -10,6 +10,7 @@
   2. [Note Board](#2-note-board)
 - [Android App Development](#android-app-development)
   1. [Shared Calendar](#1-shared-calendar)
+  2. [Newsroom](#2-newsroom)
 
 # Machine Learning
 
