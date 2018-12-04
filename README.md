@@ -134,7 +134,7 @@
 
 - **Goals:** 
   - Phase 1: Build the frontend for the app.
-  - Phase 2: Using Facebook Graph API, fetch the posts from the respective FB pages and add subscription system.
+  - Phase 2: Using Facebook Graph API, fetch the posts from the respective Facebook pages and add subscription system.
 
 - **Requirements:** 
   - Knowledge of Java, XML and Android basics.
