@@ -130,7 +130,7 @@
 ## 2. Newsroom
 
 - **Suggested Audience:** First years
-- **Description:** An android app in which each club/student chapter of our college will have a tab/page through which people can subscibe. The app will fetch latest information posted on the actual Facebook page and show it in the newsroom page, provide notifications etc.
+- **Description:** An android app in which each club/student chapter of our college will have a tab/page through which people can subscibe. Allow clubs/student chapters to register if they have a Facebook page. The app will fetch latest information posted on the actual Facebook page and show it in the newsroom page, provide notifications etc.
 
 - **Goals:** 
   - Phase 1: Build the frontend for the app.
