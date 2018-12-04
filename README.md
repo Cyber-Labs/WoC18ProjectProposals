@@ -127,3 +127,18 @@
   - Knowledge of Java, XML and Android basics.
   - Knowledge of database persistence.
   
+## 2. Newsroom
+
+- **Suggested Audience:** First years
+- **Description:** An android app in which each club/student chapter of our college will have a tab/page through which people can subscibe. The app will fetch latest information posted on the actual Facebook page and show it in the newsroom page, provide notifications etc.
+
+- **Goals:** 
+  - Phase 1: Build the frontend for the app.
+  - Phase 2: Using Facebook Graph API, fetch the posts from the respective FB pages and add subscription system.
+
+- **Requirements:** 
+  - Knowledge of Java, XML and Android basics.
+  - Knowledge of networking and database persistence.
+  
+- **Resources:**
+  - Refer the Graph API documentation: https://developers.facebook.com/docs/graph-api
