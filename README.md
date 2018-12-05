@@ -1,16 +1,17 @@
 # List of Project Proposals
 
 - [Machine Learning](#machine-learning)
-  1. [Your Own Machine Learning Library](#1-your-own-machine-learning-library)
-  2. [Machine Learning Model Zoo](#2-machine-learning-model-zoo)
-  3. [Sentiment Analysis on #MeToo tweets](#3-sentiment-analysis-on-metoo-tweets)
-  4. [Style Transfer on Images](#4-style-transfer-on-images)
+  * [1. Your Own Machine Learning Library](#1-your-own-machine-learning-library)
+  * [2. Machine Learning Model Zoo](#2-machine-learning-model-zoo)
+  * [3. Sentiment Analysis on #MeToo tweets](#3-sentiment-analysis-on-metoo-tweets)
+  * [4. Style Transfer on Images](#4-style-transfer-on-images)
 - [Web Development](#web-development)
-  1. [Bookmark Manager Web extension](#1-bookmark-manager-web-extension)
-  2. [Note Board](#2-note-board)
+  * [1. Bookmark Manager Web extension](#1-bookmark-manager-web-extension)
+  * [2. Note Board](#2-note-board)
+  * [3. Newsroom (Website)](#3-newsroom-website)
 - [Android App Development](#android-app-development)
-  1. [Shared Calendar](#1-shared-calendar)
-  2. [Newsroom](#2-newsroom)
+  * [1. Shared Calendar](#1-shared-calendar)
+  * [2. Newsroom (Android App)](#2-newsroom-android-app)
 
 # Machine Learning
 
@@ -36,7 +37,7 @@
 
 - **Goals:** 
   - Phase 1: Implementation of machine learning models for various regression tasks. You can choose tasks of your own or discuss with the mentors.
-  - Phase 2: Implementation of more advanced machine learning models for classification tasks on image data.
+  - Phase 2: Implementation of more advanced machine Flearning models for classification tasks on image data.
 
 - **Requirements:** 
   - Implementation knowledge of machine learning algorithms.
@@ -112,8 +113,28 @@
   
 - **Resources:**
   - Firebase Database can be used. It persists data without having to write backend code ([docs](https://firebase.google.com/docs/database/web/start), [tutorial](https://www.tutorialspoint.com/firebase/)).
+  
+## 3. Newsroom (Website)
+
+- **Suggested Audience:** First years
+- **Description:** A website in which each club/student chapter of our college will have a page through which people can subscibe. Allow clubs/student chapters to register if they have a Facebook page. The app will fetch latest information posted on the actual Facebook page and show it in the newsroom page, provide notifications etc.
+
+- **Goals:** 
+  - Phase 1: Build the frontend for the app.
+  - Phase 2: Using Facebook Graph API, fetch the posts from the respective Facebook pages and add subscription system.
+
+- **Requirements:** 
+  - Knowledge of HTML, CSS and Javascript.
+  - Knowledge of a backend language and database persistence.
+  - Basic Knowledge of Facebook's Graph API.
+  
+- **Resources:**
+  - Refer the Graph API documentation: https://developers.facebook.com/docs/graph-api
 
 
+​
+16
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 # Android App Development
 
 ## 1. Shared Calendar
@@ -128,7 +149,7 @@
   - Knowledge of Java, XML and Android basics.
   - Knowledge of database persistence.
   
-## 2. Newsroom
+## 2. Newsroom (Android App)
 
 - **Suggested Audience:** First years
 - **Description:** An android app in which each club/student chapter of our college will have a tab/page through which people can subscibe. Allow clubs/student chapters to register if they have a Facebook page. The app will fetch latest information posted on the actual Facebook page and show it in the newsroom page, provide notifications etc.
