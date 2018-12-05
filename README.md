@@ -132,9 +132,6 @@
   - Refer the Graph API documentation: https://developers.facebook.com/docs/graph-api
 
 
-​
-16
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 # Android App Development
 
 ## 1. Shared Calendar
