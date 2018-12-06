@@ -138,10 +138,11 @@
 ## 1. Shared Calendar
 
 - **Suggested Audience:** Second years
-- **Description:** Shared calendar is an android app to solve the problem of clashes of student activities in the college. You will design a calendar that will be readable.
+- **Description:** Shared calendar is an android app to solve the problem of clashes of student activities in the college. Each club can highlight the dates when they will be conducting some major session/workshop so that other clubs can view and plan their sessions/workshops accordingly.
 
 - **Goals:** 
-  - Build the shared calender up to completion/adequate progress.
+  - Phase 1: Build the frontend for the app.
+  - Phase 2: Add the login and data persistence features.
 
 - **Requirements:** 
   - Knowledge of Java, XML and Android basics.
