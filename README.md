@@ -12,6 +12,7 @@
 - [Android App Development](#android-app-development)
   * [1. Shared Calendar](#1-shared-calendar)
   * [2. Newsroom (Android App)](#2-newsroom-android-app)
+  * [3. Attendance Manager](#3-attendance-manager)
 
 # Machine Learning
 
@@ -161,3 +162,21 @@
   
 - **Resources:**
   - Refer the Graph API documentation: https://developers.facebook.com/docs/graph-api
+  
+## 3. Attendance Manager
+
+- **Suggested Audience:** First years
+- **Description:** An android app which helps you keep track of your daily attendance in your classes.
+Just select whether you were present or absent in a particular class everytime that subject's class occurs and one click away be informed about the percentage, total number of days absent, etc. There should be various features like add/delete subject, edit attendance, change minimum attendance criteria, reset attendance etc.
+
+- **Goals:** 
+  - Phase 1: Build the frontend for the app.
+  - Phase 2: Store all the information in local storage.
+
+- **Requirements:** 
+  - Knowledge of Java, XML and Android basics.
+  - Knowledge of SQLite or Room.
+  
+- **Resources:**
+  - Refer the SQLite documentation: https://developer.android.com/training/data-storage/sqlite
+  - Refer the Room documentation: https://developer.android.com/training/data-storage/room/
