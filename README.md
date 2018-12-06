@@ -37,7 +37,7 @@
 
 - **Goals:** 
   - Phase 1: Implementation of machine learning models for various regression tasks. You can choose tasks of your own or discuss with the mentors.
-  - Phase 2: Implementation of more advanced machine Flearning models for classification tasks on image data.
+  - Phase 2: Implementation of more advanced machine learning models for classification tasks on image data.
 
 - **Requirements:** 
   - Implementation knowledge of machine learning algorithms.
