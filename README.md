@@ -166,8 +166,8 @@
 ## 3. Attendance Manager
 
 - **Suggested Audience:** First years
-- **Description:** An android app which helps you keep track of your daily attendance in your classes.
-Just select whether you were present or absent in a particular class everytime that subject's class occurs and one click away be informed about the percentage, total number of days absent, etc. There should be various features like add/delete subject, edit attendance, change minimum attendance criteria, reset attendance etc.
+- **Description:** An android app which helps you keep track of your daily attendance in classes.
+Just select whether you were present or absent in a particular class everytime that subject's class occurs and get informed about the current percentage, total number of days absent, etc. while saving the current status of attendance so that it can be accessed later. There should be various features like add/delete subject, edit attendance, change minimum attendance criteria, reset attendance, etc.
 
 - **Goals:** 
   - Phase 1: Build the frontend for the app.
