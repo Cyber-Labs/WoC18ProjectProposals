@@ -130,7 +130,7 @@
   - Basic Knowledge of Facebook's Graph API.
   
 - **Resources:**
-  - Refer the Graph API documentation: https://developers.facebook.com/docs/graph-api
+  - Refer the Graph API documentation: [Graph API Docs](https://developers.facebook.com/docs/graph-api)
 
 
 # Android App Development
@@ -162,7 +162,7 @@
   - Knowledge of networking and database persistence.
   
 - **Resources:**
-  - Refer the Graph API documentation: https://developers.facebook.com/docs/graph-api
+  - Refer the Graph API documentation: [Graph API Docs](https://developers.facebook.com/docs/graph-api)
   
 ## 3. Attendance Manager
 
@@ -179,5 +179,5 @@ Just select whether you were present or absent in a particular class everytime t
   - Knowledge of SQLite or Room.
   
 - **Resources:**
-  - Refer the SQLite documentation: https://developer.android.com/training/data-storage/sqlite
-  - Refer the Room documentation: https://developer.android.com/training/data-storage/room/
+  - Refer the SQLite documentation: [SQLite Docs](https://developer.android.com/training/data-storage/sqlite)
+  - Refer the Room documentation: [Save data in a local database using Room](https://developer.android.com/training/data-storage/room/)
